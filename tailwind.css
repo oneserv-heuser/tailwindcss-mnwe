@@ -1,0 +1,15 @@
+@tailwind base;
+
+@layer base {
+    h1 {
+        /* not working, causes build process to crash */
+        @apply active:underline;
+    }
+    h2 {
+        /* working */
+        @apply hover:underline;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;

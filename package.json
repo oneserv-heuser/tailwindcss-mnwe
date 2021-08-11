@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-mnwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "NODE_ENV=production tailwindcss --input tailwind.css -o main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {}
+}
